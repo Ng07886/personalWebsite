@@ -1,0 +1,121 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* NAVBAR */
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+.navbar-brand{
+  padding: 0 18px;
+}
+
+.nav-item{
+  padding: 0 18px;
+  color: #ccc;
+}
+
+.bg-color{
+  background-color: #112d4e;
+}
+
+/* HOME */
+
+.home{
+  text-align: center;
+  background-image: linear-gradient(rgba(219, 226, 239, 0.2),rgba(17, 45, 78,0.7)),url("images/home.jpeg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-width: 100%;
+
+}
+
+.home h1{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #dbe2ef;
+  box-shadow: inset;
+}
+
+/* Projects */
+
+.projects{
+  height: 100%;
+  background-color: white;
+  text-align: center;
+  color: #112d4e;
+}
+
+.container-fluid{
+  max-width: 100%;
+}
+
+.projects-title{
+  padding: 2%;
+}
+
+.project-card{
+ 
+  padding: 1%;
+  margin-bottom: 2%;
+ 
+}
+
+.card{
+  width: 100%;
+}
+
+
+/* ABOUT ME */
+
+.about-me{
+  height: 100%;
+  background-color: #3f72af;
+  text-align: center;
+  color: #dbe2ef;
+  padding: 5%;
+ 
+}
+
+.about-me h1{
+  padding-bottom: 3%;
+  
+}
+
+.btn-list{
+  list-style: none;
+}
+
+.btn-list li{
+  padding:5%;
+}
+
+.paragraphs p{
+  text-align: left;
+  margin-left: 5%;
+}
+
+footer{
+  height:100%;
+  background-color: #112d4e;
+  text-align: center;
+  padding: 1%;
+  color: #FFF;
+}
